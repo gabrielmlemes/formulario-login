@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="index.js" defer></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    
+    <form >
+
+        <div id="menu">
+            <div id="imagem">
+                <img src="img/Login.svg" alt="">
+            </div>
+    
+            <div id="inputs">
+                <h1>LOGIN</h1>
+
+                <label for="email">Email</label>
+                <input type="text" placeholder="Digite seu e-mail" id="email" class="on" required>
+
+                <label for="senha">Senha</label>
+                <div id="eye-password">
+                    <input type="password" placeholder="Digite sua senha" class="on" id="senha" required>
+                    <i class="bi bi-eye-fill" id="exibir"></i>
+                </div>
+                
+                <input type="submit" onclick="validacao(); return false">
+
+                <h2><a href="esqueceuSenha.html">Esqueceu a senha?</a></h2>
+                <h2><a href="cadastro.html">Cadastre-se aqui</a></h2>
+
+            </div>
+        </div>
+    </form>
+
+
+</body>
+</html>
